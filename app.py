@@ -16,8 +16,7 @@ from linebot.models import (
     SpacerComponent, IconComponent, ButtonComponent, SeparatorComponent,
     URIAction, ButtonsTemplate, PostbackAction, MessageAction,
     TemplateSendMessage, rich_menu, imagemap, ImageCarouselTemplate,
-    ImageCarouselColumn, CarouselTemplate, CarouselColumn, PostbackEvent,
-
+    ImageCarouselColumn, CarouselTemplate, CarouselColumn, PostbackEvent
 )
 
 
