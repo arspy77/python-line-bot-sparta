@@ -206,11 +206,6 @@ def message_text(event):
 
             line_bot_api.reply_message(event.reply_token, menu_pesan)
         
-		elif command == 'showrich':
-			rich_menu_list = line_bot_api.get_rich_menu_list()
-			for rich_menu in rich_menu_list:
-				print(rich_menu.rich_menu_id)
-		
         elif command == 'pesan':
             order_memo = BOT_PREFIX + command + ' ' + arguments_string
             if len(arguments_list) == 0:
